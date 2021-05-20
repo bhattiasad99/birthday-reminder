@@ -1,0 +1,34 @@
+.list {}
+
+.listElement {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.imgContainer {
+    width: 75px;
+    height: 75px;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.data {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.age {
+    color: var(--clr-grey-4);
+}
